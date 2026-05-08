@@ -1,0 +1,2 @@
+# none.txt - no filter
+# NONE INTERPRETATION (DELTA ONLY - NO FILTER)

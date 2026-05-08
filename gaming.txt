@@ -1,0 +1,12 @@
+# gaming.txt - positional clarity
+# FPS GAMING INTERPRETATION (DELTA ONLY)
+
+Filter 1: ON PK Fc 150 Hz Gain -1.5 dB Q 0.8
+
+Filter 2: ON PK Fc 900 Hz Gain -1.0 dB Q 1.0
+
+Filter 3: ON PK Fc 3500 Hz Gain 1.8 dB Q 1.2
+
+Filter 4: ON PK Fc 6000 Hz Gain 1.2 dB Q 1.4
+
+Filter 5: ON HS Fc 9000 Hz Gain -0.8 dB Q 0.7

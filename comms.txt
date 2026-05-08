@@ -1,0 +1,7 @@
+# VOICE / COMMS INTERPRETATION (DELTA ONLY)
+
+Filter 1: ON PK Fc 180 Hz Gain -1.5 dB Q 0.9
+
+Filter 2: ON PK Fc 2500 Hz Gain 1.5 dB Q 1.0
+
+Filter 3: ON PK Fc 6000 Hz Gain -1.2 dB Q 1.2

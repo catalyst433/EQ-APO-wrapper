@@ -1,0 +1,6 @@
+# music.txt - fun factor
+# MUSIC INTERPRETATION (DELTA ONLY)
+Filter 1: ON LS Fc 90 Hz Gain 1.8 dB Q 0.7
+Filter 2: ON PK Fc 220 Hz Gain -1.2 dB Q 0.9
+Filter 3: ON PK Fc 3000 Hz Gain 1.2 dB Q 1.0
+Filter 4: ON HS Fc 10500 Hz Gain 1.5 dB Q 0.7

@@ -1,0 +1,51 @@
+#VIRTUALIZATION 
+#Virtualization_preset = (integer) 0 no default preset
+Virtualization_preset = 0
+#VIRTUALIZATION PRESET
+# VPx = "Text description" ; "dsp.wav" ; (x.xx) master volume ; *keyboard AHK combo*
+VP1= "Passthroungh" ; "none.wav" ; 1.00 
+VP2= "DTS:X" ; "dtshx.wav"; 0.82 
+VP3= "DTS:X no rev" ; "dtshx-.wav" ; 0.82 
+VP4= "Dolby Atmos" ; "atmos.wav" ; 0.92
+VP5= "GSX Binaural no rev" ; "gsx-.wav" ; 1.15 
+
+#HARDWARE
+#Hardware_preset = (integer) 0 no default preset 
+Hardware_preset = 0
+#HARDWARE PRESET
+# HPx = "Text description" ; "profile.txt"
+HP1 = "Open H6Pro" ; "open_h6pro.txt"
+HP2 = "Close V2X" ; "Close_V2X.txt"
+
+#INTENT
+#Itent_preset = (integer) 0 no default preset 
+Intent_preset = 0
+#INTENT PRESET
+# IPx = "Text description" ; "profile.txt" ; *keyboard AHK combo*
+IP1 = "None" ; "none.txt" 
+IP2 = "Theater" ; "theater.txt" 
+IP3 = "Gaming" ; "gaming.txt" 
+IP4 = "Music" ; "music.txt" 
+IP5 = "Comms" ; "comms.txt"  
+
+[Templates]
+config_template=
+
+# config.txt - Pipeline: Source - Hardware filter - Personal filter - Intent filters
+#Source audio always on
+Include: HeSuVi\hesuvi.txt
+
+# Hardware filters - correction
+Include: {HP}
+
+# Personal filters - always on
+Include: agebias.txt
+
+# Intent filters - only delta to show intent 
+Include: {IP}
+
+conv_template=
+Convolution: hrir\{WAV}
+
+master_template=
+Copy: LVI={VOL}*LVI RVI={VOL}*RVI
