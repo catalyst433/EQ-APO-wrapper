@@ -1,4 +1,6 @@
 <img width="385" height="427" alt="2026-05-08_20-46" src="https://github.com/user-attachments/assets/0d0f6e4c-a031-4098-baaa-3fcfc8b5b6b5" />
+*Live tray menu showing active configuration: GSX Binaural + Open H6Pro + Comms intent*
+
 ==============================================================================
 
 EQManager.ahk — AutoHotkey v2
