@@ -1,6 +1,8 @@
 ==============================================================================
+
 EQManager.ahk — AutoHotkey v2
 Tray-based state manager for Equalizer APO + HeSuVi
+
 ==============================================================================
 
 COMPILATION COMMAND:
