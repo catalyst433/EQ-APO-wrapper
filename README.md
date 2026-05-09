@@ -52,4 +52,5 @@ DESIGN PRINCIPLES:
    - EQManager.txt defines available presets, not active state
    - Full-file regeneration only (never partial edits)
    - Stateless event-driven runtime
+
 ==============================================================================
